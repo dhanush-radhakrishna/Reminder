@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Reminder</string>
+    <string name="label">Add</string>
 </resources>
