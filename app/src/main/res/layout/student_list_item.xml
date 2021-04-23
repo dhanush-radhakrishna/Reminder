@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/taskL"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:background="#E3D986"
+        android:backgroundTint="#FFF493"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descL"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_weight="1"
+        android:background="#B7EC7A"
+        android:backgroundTint="#BDEF83"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/timeL"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:backgroundTint="#87EAF6"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+</LinearLayout>
